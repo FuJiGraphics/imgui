@@ -1,7 +1,7 @@
 project "Imgui"
 	kind "StaticLib"
 	language "C++"
-	staticruntime "off"
+	staticruntime "on"
 	warnings "off"
 
 	targetdir ("bin/" .. outputDir .. "/%{prj.name}")
